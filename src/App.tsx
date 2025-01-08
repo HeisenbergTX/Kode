@@ -1,4 +1,4 @@
-import "./App.css";
+import React from "react";
 import { Header } from "./organisms/Header";
 import { Main } from "./organisms/Main";
 
