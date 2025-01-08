@@ -1,6 +1,11 @@
 export interface IPerson {
-  avatar: any;
-  firstName: string;
-  secondName: string;
-  specialty: string;
+  id: number;
+  avatarurl: string;
+  firstname: string;
+  lastname: string;
+  usertag: string | null;
+  department: string;
+  position: string;
+  birthday: string;
+  phone: string;
 }

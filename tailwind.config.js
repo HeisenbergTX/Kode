@@ -13,6 +13,9 @@ export default {
         s: "13px",
         m: "15px",
       },
+      spacing: {
+        18: "72px",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],
